@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown zum Vatertag</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Countdown zum Vatertag</h1>
+        <div class="content-wrapper">
+            <div class="main-content">
+                <div id="celebration" class="celebration hidden">
+                    <h2>🎉 Alles Gute zum Vatertag! 🎉</h2>
+                    <p>Heute ist Vatertag!</p>
+                    <p>Immer schön hinter dem Bollerwagen bleiben!</p>
+                </div>
+                <div id="countdown" class="countdown">
+                    <div class="time-unit">
+                        <span id="days" class="number">0</span>
+                        <span class="label">Tage</span>
+                    </div>
+                    <div class="time-unit">
+                        <span id="hours" class="number">0</span>
+                        <span class="label">Stunden</span>
+                    </div>
+                    <div class="time-unit">
+                        <span id="minutes" class="number">0</span>
+                        <span class="label">Minuten</span>
+                    </div>
+                    <div class="time-unit">
+                        <span id="seconds" class="number">0</span>
+                        <span class="label">Sekunden</span>
+                    </div>
+                </div>
+                <p id="date-info" class="date-info"></p>
+                <p class="bollerwagen-text">Immer schön hinter dem Bollerwagen bleiben!</p>
+            </div>
+            <div class="sidebar">
+                <div id="upcoming-dates" class="upcoming-dates">
+                    <h3>Kommende Vatertage:</h3>
+                    <ul id="dates-list"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
